@@ -1,0 +1,20 @@
+         
+          Wii - Controller
+ ======================================
+ Uwe Berger (bergeruw(at)gmx.net); 2016 
+  
+ 
+ Bibliothek zum Abfragen von Wii-Controller mit einem AVR via I2C.
+ 
+ Derzeit sind Routinen/Strukturen fuer folgende Wii-Controller
+ implementiert:
+   * Nunchuck
+   * Classic
+   
+ Im Beispielprogramm wird die Verwendung der Bibliothek beispielhaft
+ aufgezeigt. Bei unbekannten Controller-Typen wird die ermittelte
+ Controller-ID sowie der Inhalt der sechs Datenbytes binaer ausgegeben.
+ 
+ 
+ ---------
+ Have fun!
